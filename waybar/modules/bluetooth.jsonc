@@ -1,0 +1,11 @@
+{
+    "bluetooth": {
+		"format": "",
+		"format-connected": "󰂱",
+		"format-off": "󰂲",
+		"format-disabled": "󰂲",
+		"tooltip-format": "{status}",
+		"on-click": "hyprctl eval 'hl.exec_cmd(\"kitty -e bluetui\", { float = true, center = true, size = {900, 650} })'",
+		"tooltip-format-connected": "Bluetooth: {device_alias}"
+	}
+}
